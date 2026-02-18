@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "dist/api/index.js": {
+      "runtime": "nodejs22.x"
+    }
+  }
+}

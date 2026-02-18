@@ -1,8 +1,4 @@
-import app from "../src/server.js";
+import app from "../src/server"; 
 import serverless from "serverless-http";
-
-export const config = {
-  runtime: "nodejs20.x"
-};
 
 export default serverless(app);

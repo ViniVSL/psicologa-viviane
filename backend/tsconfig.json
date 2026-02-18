@@ -6,6 +6,9 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true
-  }
+    "allowSyntheticDefaultImports": true,
+    "noEmit": false,
+    "outDir": "dist"
+  },
+  "include": ["api/**/*.ts", "src/**/*.ts"]
 }

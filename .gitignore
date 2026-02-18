@@ -1,4 +1,6 @@
+# ========================
 # Logs
+# ========================
 logs
 *.log
 npm-debug.log*
@@ -7,19 +9,45 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# ========================
+# Dependencies
+# ========================
 node_modules
-dist
-
-dist-ssr
-*.local
 frontend/node_modules
-frontend/dist
 backend/node_modules
+
+# ========================
+# Build Outputs
+# ========================
+dist
+frontend/dist
 backend/dist
+dist-ssr
 .vite
+coverage
+.cache
 
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.*
+*.local
 
-# Editor directories and files
+# ========================
+# TypeScript
+# ========================
+*.tsbuildinfo
+
+# ========================
+# Deploy
+# ========================
+.vercel
+.netlify
+
+# ========================
+# Editor / OS
+# ========================
 .vscode/*
 !.vscode/extensions.json
 .idea

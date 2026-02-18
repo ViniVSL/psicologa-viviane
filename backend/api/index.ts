@@ -11,4 +11,4 @@ app.get("/health", (_req, res) => {
   res.json({ status: "ok", online: true });
 });
 
-export const handler = serverless(app);
+export default serverless(app);

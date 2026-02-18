@@ -3,13 +3,14 @@ import cors from "cors";
 
 const app = express();
 
-app.use(cors());
+app.use(cors()); 
 app.use(express.json());
 
-app.get("/health", (_: Request, res: Response) => {
+app.get("/health", (_req: Request, res: Response) => {
   res.status(200).json({
     status: "ok",
     online: true,
+    timestamp: new Date().toISOString()
   });
 });
 

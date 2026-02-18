@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "module": "NodeNext",             
+    "moduleResolution": "NodeNext",   
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-    "noEmit": false,
     "outDir": "dist"
   },
-  "include": ["api/**/*.ts", "src/**/*.ts"]
+  "include": ["api/**/*", "src/**/*"]
 }

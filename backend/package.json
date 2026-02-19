@@ -4,8 +4,7 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
-    "build": "echo 'No build step needed for Vercel API'"
+    "dev": "tsx watch src/server.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
